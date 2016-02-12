@@ -21,6 +21,7 @@ TODO: Write credits
 ## Thanks
 
 – Christa
+
 – http://www.macosxautomation.com/applescript/linktrigger/
 
 ## License
