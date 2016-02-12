@@ -1,10 +1,15 @@
 # LocalAdmin an URL–Launcher for OS X
 
-TODO: Write a project description
+By using an URL launcher you can call script 
 
 ## Installation
 
-TODO: Describe the installation process
+### 1. Download and unzip LocalAdmin
+### 2. Move the app to your application folder
+###	3. Doubleclick LocalAdmin
+You will see a dialog with a description. This first launch is important for registration of the url scheme in OS X.
+### 4. Click the «Ok» button.
+### 5. Move the folder localadmin to Users/your_username/library/scripts/
 
 ## Usage
 
@@ -15,10 +20,6 @@ TODO: Write usage instructions
 Version: 1.0
 
 ## Credits
-
-TODO: Write credits
-
-## Thanks
 
 – Christa
 
