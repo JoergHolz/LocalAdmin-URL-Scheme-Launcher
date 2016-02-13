@@ -12,7 +12,7 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 
 2. Move the app to your application folder
 
-3. Doubleclick LocalAdmin
+3. Doubleclick LocalAdmin  
    You will see a dialog with a description. This first launch is important for registration of the url scheme in OS X.  
    
    ![LocalAdmin dialog](doc_images/localadmin_app.png)  
