@@ -80,4 +80,4 @@ Version: 1.0
 
 MIT License (MIT)
 
-Copyright (c) 2016 Joerg Holz | [https://www.workflow-management.net](https://www.workflow-management.net)
+Copyright (c) 2016 Jörg Holz | [https://www.workflow-management.net](https://www.workflow-management.net)
