@@ -1,4 +1,4 @@
-#![LocalAdmin Icon](doc_images/icon_32x32.png) LocalAdmin a URL Scheme Launcher in OS X
+#![LocalAdmin Icon](doc_images/icon_32x32.png) LocalAdmin an OS X URL Scheme Launcher
 
 Use this URL Scheme Launcher to execute AppleSripts by using the browsers address bar, an link in your HTML document, via AJAX, …
 
