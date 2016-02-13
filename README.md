@@ -79,3 +79,4 @@ Version: 1.0
 ## License
 
 MIT License (MIT)
+Copyright (c) 2016 Joerg Holz | [https://www.workflow-management.net](https://www.workflow-management.net)
