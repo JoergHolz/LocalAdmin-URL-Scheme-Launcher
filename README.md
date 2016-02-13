@@ -14,7 +14,7 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 
 3. Doubleclick LocalAdmin
    You will see a dialog with a description. This first launch is important for registration of the url scheme in OS X.
-   
+   [[https://github.com/JoergHolz/LocalAdmin/blob/master/img/localadmin_app.png|alt=LocalAdmin Dialog]]
 4. Click the «Ok» button.
 
 5. Move the folder localadmin to **Users/your_username/library/scripts/**
