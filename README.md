@@ -9,18 +9,23 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 ## Installation
 
 1. Download and unzip LocalAdmin
+
 2. Move the app to your application folder
+
 3. Doubleclick LocalAdmin
    You will see a dialog with a description. This first launch is important for registration of the url scheme in OS X.
+   
 4. Click the «Ok» button.
+
 5. Move the folder localadmin to **Users/your_username/library/scripts/**
+
 6. Open a browser and type **localadmin://skeleton.scpt** 
    You will get a notification «It work's!».  
    Some browsers are asking for permission, grant it.
 
 ## Usage
 
-All of your AppleScripts have to be in Users/your_username/library/scripts/localadmin
+All of your AppleScripts have to be in **Users/your_username/library/scripts/localadmin**
 
 Call your scripts by using this URL scheme:
 
