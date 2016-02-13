@@ -13,8 +13,10 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 2. Move the app to your application folder
 
 3. Doubleclick LocalAdmin
-   You will see a dialog with a description. This first launch is important for registration of the url scheme in OS X.
-   ![LocalAdmin dialog](doc_images/localadmin_app.png)
+   You will see a dialog with a description. This first launch is important for registration of the url scheme in OS X.  
+   
+   ![LocalAdmin dialog](doc_images/localadmin_app.png)  
+   
 4. Click the «Ok» button.
 
 5. Move the folder localadmin to **Users/your_username/library/scripts/**
@@ -33,7 +35,9 @@ Call your scripts by using this URL scheme:
 
 For displaying a notification, just use return:
 
-**return {title:"Success", msg:"It works!"}**
+**return {title:"Success", msg:"It works!"}** 
+ 
+ ![LocalAdmin notification](doc_images/localadmin_notification.png)
 
 ## History
 
