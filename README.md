@@ -1,4 +1,4 @@
-# LocalAdmin a Launcher for URL–Schemes in OS X
+![LocalAdmin Icon](doc_images/icon_32x32.png) # LocalAdmin a Launcher for URL–Schemes in OS X
 
 With this URL–Launcher you can execute AppleSripts by using the browsers address bar, an link in your HTML document, via AJAX, …
 
@@ -21,7 +21,11 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 
 5. Move the folder localadmin to **Users/your_username/library/scripts/**
 
-6. Open a browser and type **localadmin://skeleton.scpt** 
+6. Open a browser and type:
+  
+   ```
+   localadmin://skeleton.scpt
+   ```
    You will get a notification «It work's!».  
    Some browsers are asking for permission, grant it.
    
