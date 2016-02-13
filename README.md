@@ -1,4 +1,4 @@
-# LocalAdmin an Launcher for URL–Schemes in OS X
+# LocalAdmin a Launcher for URL–Schemes in OS X
 
 With this URL–Launcher you can execute AppleSripts by using the browsers address bar, an link in your HTML document, via AJAX, …
 
@@ -33,12 +33,16 @@ All of your AppleScripts have to be in **Users/your_username/library/scripts/loc
 
 Call your scripts by using this URL scheme:
 
-**localadmin://your_script_name.scpt?your_key1=your_value1&your_key2=your_value2**
+```
+localadmin://your_script_name.scpt?your_key1=your_value1&your_key2=your_value2
+```
 
 For displaying a notification, just use return in your script:
 
-**return {title:"Success", msg:"It works!"}** 
- 
+```
+return {title:"Success", msg:"It works!"}
+```
+
  ![LocalAdmin notification](doc_images/localadmin_notification.png)
  
 ## skeleton.scpt
@@ -47,12 +51,14 @@ skeleton.scpt is an example script and can be used as a template.
 
 If you use parameters in your link, like:
 
-**localadmin://your_script_name.scpt?q=12345&x=today**
+```
+localadmin://your_script_name.scpt?q=12345&x=today
+```
 
 and you want to fetch these values in your script, just call:
 
 ```
-get_value(params, "q")
+set myVar to get_value(params, "q")
 ```
 
 
