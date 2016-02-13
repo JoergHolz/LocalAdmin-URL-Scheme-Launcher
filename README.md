@@ -17,13 +17,15 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
    
    ![LocalAdmin dialog](doc_images/localadmin_app.png)  
    
-4. Click the «Ok» button.
+4. Click the «OK» button.
 
 5. Move the folder localadmin to **Users/your_username/library/scripts/**
 
 6. Open a browser and type **localadmin://skeleton.scpt** 
    You will get a notification «It work's!».  
    Some browsers are asking for permission, grant it.
+   
+   ![LocalAdmin browser](doc_images/localadmin_browser.png)
 
 ## Usage
 
