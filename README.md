@@ -13,8 +13,8 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 2. Move the app to your application folder
 
 3. Doubleclick LocalAdmin  
-   You will see a dialog with a description.  
-
+   You will see a dialog with a description.
+   
    **This first launch is important for registration of the url scheme in OS X.**  
    
    ![LocalAdmin dialog](doc_images/localadmin_app.png)  
@@ -51,7 +51,7 @@ return {title:"Success", msg:"It works!"}
 
  ![LocalAdmin notification](doc_images/localadmin_notification.png)
  
-## Scripts in Folder localadmin
+## Scripts in Folder «localadmin»
 
 #### skeleton.scpt
 
@@ -66,12 +66,13 @@ localadmin://your_script_name.scpt?q=12345&x=today
 and you want to fetch these values in your script, just call:
 
 ```
-set myVar to get_value(params, "q")
+set myVar1 to get_value(params, "q")
+set myVar2 to get_value(params, "x")
 ```
 
 #### show_in_finder.scpt
 
-Opens a path in Finder
+Opens a path in Finder.
 
 ```
 localadmin://show_in_finder.scpt?path=/Users/your_username/path/to/something/
@@ -79,7 +80,7 @@ localadmin://show_in_finder.scpt?path=/Users/your_username/path/to/something/
 
 #### open_path_in_terminal.scpt
 
-Opens a path in Terminal
+Opens a path in Terminal.
 
 
 ```
@@ -88,9 +89,9 @@ localadmin://open_path_in_terminal.scpt?path=/path/to/open/
 
 #### terminal_command.scpt
 
-** ATTENTION: Be very careful when you use this script! Terminal commands are powerful.** 
+**ATTENTION: Be very careful when you use this script! Terminal commands are powerful.** 
 
-Opens a path in Terminal
+Opens executes a command in Terminal.
 
 ```
 localadmin://terminal_command.scpt?script=ls;
@@ -98,7 +99,7 @@ localadmin://terminal_command.scpt?script=ls;
 
 #### open_in_xcode.scpt
 
-Opens a project in Xcode
+Opens a project in Xcode.
 
 ```
 localadmin://open_in_xcode.scpt?path=/Users/your_username/path/to/project/
@@ -106,7 +107,7 @@ localadmin://open_in_xcode.scpt?path=/Users/your_username/path/to/project/
 
 #### open_in_phpstorm.scpt
 
-Opens a project in PhpStorm
+Opens a project in PhpStorm.
 
 ```
 localadmin://open_in_phpstorm.scpt?path=/Users/your_username/path/to/project/
@@ -122,7 +123,7 @@ The script expects the following settings in PhpStorm. Otherwise change the name
 
 #### open_in_android_studio.scpt
 
-Opens a project in Android Studio
+Opens a project in Android Studio.
 
 ```
 localadmin://open_in_android_studio.scpt?path=/Users/your_username/path/to/project/
