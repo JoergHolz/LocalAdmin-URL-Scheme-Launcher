@@ -67,6 +67,48 @@ and you want to fetch these values in your script, just call:
 set myVar to get_value(params, "q")
 ```
 
+#### show_in_finder.scpt
+
+Opens a path in Finder
+
+Call it like:
+
+```
+localadmin://show_in_finder.scpt?path=/Users/your_username/path/to/something/
+```
+
+#### open_path_in_terminal.scpt
+
+Opens a path in Terminal
+
+Call it like:
+
+```
+localadmin://open_path_in_terminal.scpt?path=/path/to/open/
+```
+
+#### terminal_command.scpt
+
+** ATTENTION: Be very careful when you use this script! Terminal commands are very powerful. 
+
+Opens a path in Terminal
+
+Call it like:
+
+```
+localadmin://terminal_command.scpt?script=ls;
+```
+
+#### open_in_xcode.scpt
+
+Opens a project in Xcode
+
+Call it like:
+
+```
+localadmin://open_in_xcode.scpt?path=/Users/your_username/path/to/project/
+```
+
 #### open_in_phpstorm.scpt
 
 Opens a project in PhpStorm
@@ -74,7 +116,7 @@ Opens a project in PhpStorm
 Call it like:
 
 ```
-localadmin://open_in_phpstorm.scpt?path=/Users/your_username/path/to/project
+localadmin://open_in_phpstorm.scpt?path=/Users/your_username/path/to/project/
 ```
 
 #### open_in_android_studio.scpt
@@ -84,7 +126,7 @@ Opens a project in Android Studio
 Call it like:
 
 ```
-localadmin://open_in_android_studio.scpt?path=/Users/your_username/path/to/project
+localadmin://open_in_android_studio.scpt?path=/Users/your_username/path/to/project/
 ```
 
 ## History
