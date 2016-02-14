@@ -6,6 +6,10 @@ All you have to do is to call something like this **localadmin://my_script.scpt*
 
 Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=another_value&…** and if your AppleScript returns a message, you will get this message as notification on your screen.
 
+## Requirements
+
+LocalAdmin is only tested on OS X El Capitan
+
 ## Installation
 
 1. Download and unzip LocalAdmin.zip
