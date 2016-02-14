@@ -13,7 +13,9 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 2. Move the app to your application folder
 
 3. Doubleclick LocalAdmin  
-   You will see a dialog with a description. **This first launch is important for registration of the url scheme in OS X.**  
+   You will see a dialog with a description.  
+
+   **This first launch is important for registration of the url scheme in OS X.**  
    
    ![LocalAdmin dialog](doc_images/localadmin_app.png)  
    
@@ -53,7 +55,7 @@ return {title:"Success", msg:"It works!"}
 
 #### skeleton.scpt
 
-skeleton.scpt is an example script, expand it to your needs.
+skeleton.scpt is an example script, copy it and expand it to your needs.
 
 If you use parameters in your link, like:
 
@@ -89,7 +91,7 @@ localadmin://open_path_in_terminal.scpt?path=/path/to/open/
 
 #### terminal_command.scpt
 
-** ATTENTION: Be very careful when you use this script! Terminal commands are very powerful. 
+** ATTENTION: Be very careful when you use this script! Terminal commands are powerful.** 
 
 Opens a path in Terminal
 
@@ -119,6 +121,13 @@ Call it like:
 localadmin://open_in_phpstorm.scpt?path=/Users/your_username/path/to/project/
 ```
 
+##### Requirements
+
+The script expects the following settings in PhpStorm. Otherwise change the name/path in open_in_phpstorm.scpt.
+
+![PhpStorm Command-line Launcher](doc_images/phpstorm_1.png)
+![PhpStorm Command-line Launcher Settings](doc_images/phpstorm_2.png)
+
 #### open_in_android_studio.scpt
 
 Opens a project in Android Studio
@@ -128,6 +137,13 @@ Call it like:
 ```
 localadmin://open_in_android_studio.scpt?path=/Users/your_username/path/to/project/
 ```
+
+##### Requirements
+
+The script expects the following settings in PhpStorm. Otherwise change the name/path in open_in_android_studio.scpt.
+
+![Android Studio Command-line Launcher](doc_images/android_studio_1.png)
+![Android Studio Command-line Launcher Settings](doc_images/android_studio_2.png)
 
 ## History
 
