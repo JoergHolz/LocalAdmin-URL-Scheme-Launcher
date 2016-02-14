@@ -13,7 +13,7 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 2. Move the app to your application folder
 
 3. Doubleclick LocalAdmin  
-   You will see a dialog with a description. This first launch is important for registration of the url scheme in OS X.  
+   You will see a dialog with a description. **This first launch is important for registration of the url scheme in OS X.**  
    
    ![LocalAdmin dialog](doc_images/localadmin_app.png)  
    
@@ -53,7 +53,7 @@ return {title:"Success", msg:"It works!"}
 
 #### skeleton.scpt
 
-skeleton.scpt is an example script, expand it for your needs.
+skeleton.scpt is an example script, expand it to your needs.
 
 If you use parameters in your link, like:
 
@@ -67,6 +67,25 @@ and you want to fetch these values in your script, just call:
 set myVar to get_value(params, "q")
 ```
 
+#### open_in_phpstorm.scpt
+
+Opens a project in PhpStorm
+
+Call it like:
+
+```
+localadmin://open_in_phpstorm.scpt?path=/Users/your_username/path/to/project
+```
+
+#### open_in_android_studio.scpt
+
+Opens a project in Android Studio
+
+Call it like:
+
+```
+localadmin://open_in_android_studio.scpt?path=/Users/your_username/path/to/project
+```
 
 ## History
 
