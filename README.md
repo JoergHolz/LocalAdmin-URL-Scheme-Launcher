@@ -25,7 +25,7 @@ LocalAdmin is only tested on OS X El Capitan
    
 4. Click the «OK» button.
 
-5. Move the folder localadmin to **Users/your_username/library/scripts/**
+5. Move the folder «localadmin» to **Users/your_username/library/scripts/**
 
 6. Open a browser and type:
   
@@ -95,7 +95,7 @@ localadmin://open_path_in_terminal.scpt?path=/path/to/open/
 
 **ATTENTION: Be very careful when you use this script! Terminal commands are powerful.** 
 
-Opens executes a command in Terminal.
+Executes a command in Terminal.
 
 ```
 localadmin://terminal_command.scpt?script=ls;
