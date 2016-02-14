@@ -73,8 +73,6 @@ set myVar to get_value(params, "q")
 
 Opens a path in Finder
 
-Call it like:
-
 ```
 localadmin://show_in_finder.scpt?path=/Users/your_username/path/to/something/
 ```
@@ -83,7 +81,6 @@ localadmin://show_in_finder.scpt?path=/Users/your_username/path/to/something/
 
 Opens a path in Terminal
 
-Call it like:
 
 ```
 localadmin://open_path_in_terminal.scpt?path=/path/to/open/
@@ -95,8 +92,6 @@ localadmin://open_path_in_terminal.scpt?path=/path/to/open/
 
 Opens a path in Terminal
 
-Call it like:
-
 ```
 localadmin://terminal_command.scpt?script=ls;
 ```
@@ -105,8 +100,6 @@ localadmin://terminal_command.scpt?script=ls;
 
 Opens a project in Xcode
 
-Call it like:
-
 ```
 localadmin://open_in_xcode.scpt?path=/Users/your_username/path/to/project/
 ```
@@ -114,8 +107,6 @@ localadmin://open_in_xcode.scpt?path=/Users/your_username/path/to/project/
 #### open_in_phpstorm.scpt
 
 Opens a project in PhpStorm
-
-Call it like:
 
 ```
 localadmin://open_in_phpstorm.scpt?path=/Users/your_username/path/to/project/
@@ -126,13 +117,12 @@ localadmin://open_in_phpstorm.scpt?path=/Users/your_username/path/to/project/
 The script expects the following settings in PhpStorm. Otherwise change the name/path in open_in_phpstorm.scpt.
 
 ![PhpStorm Command-line Launcher](doc_images/phpstorm_1.png)
+
 ![PhpStorm Command-line Launcher Settings](doc_images/phpstorm_2.png)
 
 #### open_in_android_studio.scpt
 
 Opens a project in Android Studio
-
-Call it like:
 
 ```
 localadmin://open_in_android_studio.scpt?path=/Users/your_username/path/to/project/
@@ -143,6 +133,7 @@ localadmin://open_in_android_studio.scpt?path=/Users/your_username/path/to/proje
 The script expects the following settings in PhpStorm. Otherwise change the name/path in open_in_android_studio.scpt.
 
 ![Android Studio Command-line Launcher](doc_images/android_studio_1.png)
+
 ![Android Studio Command-line Launcher Settings](doc_images/android_studio_2.png)
 
 ## History
