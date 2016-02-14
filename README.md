@@ -1,25 +1,25 @@
 #![LocalAdmin Icon](doc_images/icon_32x32.png) LocalAdmin an OS X URL Scheme Launcher
 
-Use this URL Scheme Launcher to execute AppleSripts by using the browsers address bar, an link in your HTML document, via AJAX, …
+Use this URL Scheme Launcher to execute local AppleSripts by using the browsers address bar, a link in your HTML document, via AJAX, …
 
-All you have to do is to call something like this **localadmin://my_script.scpt**.
+Just call: **localadmin://my_script.scpt**.
 
 Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=another_value&…** and if your AppleScript returns a message, you will get this message as notification on your screen.
 
 ## Requirements
 
-LocalAdmin is only tested on OS X El Capitan
+LocalAdmin is only tested on OS X El Capitan.
 
 ## Installation
 
-1. Download and unzip LocalAdmin.zip
+1. Download and unzip LocalAdmin.zip.
 
-2. Move the app to your application folder
+2. Move the app to your application folder.
 
 3. Doubleclick LocalAdmin  
-   You will see a dialog with a description.
+   You will see an info window.
    
-   **This first launch is important for registration of the url scheme in OS X.**  
+   **This first launch is important for registration the url scheme in OS X.**  
    
    ![LocalAdmin dialog](doc_images/localadmin_app.png)  
    
@@ -59,7 +59,7 @@ return {title:"Success", msg:"It works!"}
 
 #### skeleton.scpt
 
-skeleton.scpt is an example script, copy it and expand it to your needs.
+skeleton.scpt is an example script, copy/rename it and expand it to your needs.
 
 If you use parameters in your link, like:
 
