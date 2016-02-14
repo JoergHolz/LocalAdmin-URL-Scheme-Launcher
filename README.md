@@ -8,7 +8,7 @@ Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=
 
 ## Installation
 
-1. Download and unzip LocalAdmin
+1. Download and unzip LocalAdmin.zip
 
 2. Move the app to your application folder
 
@@ -49,7 +49,9 @@ return {title:"Success", msg:"It works!"}
 
  ![LocalAdmin notification](doc_images/localadmin_notification.png)
  
-## skeleton.scpt
+## Example Scripts in Folder localadmin
+
+#### skeleton.scpt
 
 skeleton.scpt is an example script and can be used as a template.
 
