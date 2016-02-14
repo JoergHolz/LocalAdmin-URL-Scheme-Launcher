@@ -49,11 +49,11 @@ return {title:"Success", msg:"It works!"}
 
  ![LocalAdmin notification](doc_images/localadmin_notification.png)
  
-## Example Scripts in Folder localadmin
+## Scripts in Folder localadmin
 
 #### skeleton.scpt
 
-skeleton.scpt is an example script and can be used as a template.
+skeleton.scpt is an example script, expand it for your needs.
 
 If you use parameters in your link, like:
 
