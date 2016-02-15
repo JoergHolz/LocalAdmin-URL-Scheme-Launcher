@@ -76,7 +76,7 @@ set myVar2 to get_value(params, "x")
 
 #### show_in_finder.scpt
 
-Opens a path in Finder.
+Opens a path in topmost Finder window, if there is none, it creates a new one.
 
 ```
 localadmin://show_in_finder.scpt?path=/Users/your_username/path/to/something/
