@@ -1,6 +1,6 @@
 #LocalAdmin-URL-Scheme-Launcher for OS X
 
-Use this URL Scheme Launcher to execute local AppleSripts in the browsers address bar, in a link in your HTML document, via AJAX, …
+Use this URL Scheme Launcher to execute local AppleSripts in your browsers address bar, in a link in your HTML document, via AJAX, … or as addon for [LocalAdmin](https://github.com/JoergHolz/LocalAdmin).
 
 Just call: **localadmin://my_script.scpt**
 
