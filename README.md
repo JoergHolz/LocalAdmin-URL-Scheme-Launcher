@@ -276,7 +276,7 @@ Remember to configure add_to_path.
             "add_to_path" => "",
             "label" => "Terminal",
             "tooltip" => "Open Path in Terminal",
-            "parameters" => ""```
+            "parameters" => ""
 ```
 
 ##5. Scripts in Folder «localadmin»
