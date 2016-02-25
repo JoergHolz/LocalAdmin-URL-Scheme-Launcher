@@ -1,10 +1,10 @@
 #LocalAdmin-URL-Scheme-Launcher for OS X
 
-Use this URL Scheme Launcher to execute local AppleSripts by using the browsers address bar, a link in your HTML document, via AJAX, …
+Use this URL Scheme Launcher to execute local AppleSripts in the browsers address bar, in a link in your HTML document, via AJAX, …
 
 Just call: **localadmin://my_script.scpt**
 
-Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=another_value&…** and if your AppleScript returns a message, you will get this message as notification on your screen.
+Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=another_value&…** and if your AppleScript returns a message, you will get this message as a notification on your screen.
 
 ---
 
@@ -69,7 +69,215 @@ return {title:"Success", msg:"It works!"}
  
 
 ##4. Usage for Users of LocalAdmin
-Here are the settings for users of [LocalAdmin](https://github.com/JoergHolz/LocalAdmin)
+Here are settings for users of [LocalAdmin](https://github.com/JoergHolz/LocalAdmin)
+
+#### Open Project in PhpStorm
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "url_scheme",
+                "script" => "open_in_phpstorm.scpt",
+                "add_to_path" => "",
+                "label" => "PhpStorm",
+                "tooltip" => "Open in PhpStorm",
+                "parameters" => ""
+            ]
+```
+
+#### Commit Project with PhpStorm
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "url_scheme",
+                "script" => "commit_with_phpstorm.scpt",
+                "add_to_path" => "",
+                "label" => "Commit",
+                "tooltip" => "Commit with PhpStorm",
+                "parameters" => ""
+            ]
+```
+
+
+#### Show Project in Finder
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "url_scheme",
+                "script" => "show_in_finder.scpt",
+                "add_to_path" => "",
+                "label" => "Finder",
+                "tooltip" => "Show in Finder",
+                "parameters" => ""
+            ]
+```
+
+#### Open Project in current Browser and show Developer Tools
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "url_scheme",
+                "script" => "open_developer_tools_in_cur_browser.scpt",
+                "add_to_path" => "",
+                "label" => "DeveloperTools",
+                "tooltip" => "Open & DeveloperTools",
+                "parameters" => ""
+            ]
+```
+
+#### Open Project in different Browsers
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "dropdown",
+                "name" => "Browser",
+                "items" => [
+                    0 => [
+                        "type" => "url_scheme",
+                        "script" => "open_in_browser.scpt",
+                        "add_to_path" => "",
+                        "label" => "Safari",
+                        "tooltip" => "Open in Safari",
+                        "parameters" => "&browser=Safari"
+                    ],
+                    1 => [
+                        "type" => "url_scheme",
+                        "script" => "open_in_browser.scpt",
+                        "add_to_path" => "",
+                        "label" => "Chrome",
+                        "tooltip" => "Open in Chrome",
+                        "parameters" => "&browser=Google Chrome"
+                    ],
+                    2 => [
+                        "type" => "url_scheme",
+                        "script" => "open_in_browser.scpt",
+                        "add_to_path" => "",
+                        "label" => "Firefox",
+                        "tooltip" => "Open in Firefox",
+                        "parameters" => "&browser=Firefox"
+                    ],
+                    3 => [
+                        "type" => "url_scheme",
+                        "script" => "open_in_browser.scpt",
+                        "add_to_path" => "",
+                        "label" => "Opera",
+                        "tooltip" => "Open in Opera",
+                        "parameters" => "&browser=Opera"
+                    ]
+
+                ]
+            ]
+```
+
+
+#### Open Project in different Browsers and show Developer Tools
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "dropdown",
+                "name" => "Tools from Browser:",
+                "items" => [
+                    0 => [
+                        "type" => "url_scheme",
+                        "script" => "open_developer_tools_in_browser.scpt",
+                        "add_to_path" => "",
+                        "label" => "Safari",
+                        "tooltip" => "Open in Safari",
+                        "parameters" => "&browser=Safari"
+                    ],
+                    1 => [
+                        "type" => "url_scheme",
+                        "script" => "open_developer_tools_in_browser.scpt",
+                        "add_to_path" => "",
+                        "label" => "Chrome",
+                        "tooltip" => "Open in Chrome",
+                        "parameters" => "&browser=Google Chrome"
+                    ],
+                    2 => [
+                        "type" => "url_scheme",
+                        "script" => "open_developer_tools_in_browser.scpt",
+                        "add_to_path" => "",
+                        "label" => "Firefox",
+                        "tooltip" => "Open in Firefox",
+                        "parameters" => "&browser=Firefox"
+                    ],
+                    3 => [
+                        "type" => "url_scheme",
+                        "script" => "open_developer_tools_in_browser.scpt",
+                        "add_to_path" => "",
+                        "label" => "Opera",
+                        "tooltip" => "Open in Opera",
+                        "parameters" => "&browser=Opera"
+                    ],
+
+                ]
+            ]
+```
+
+#### Open Project in Android Studio
+Remember to configure add_to_path.
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "url_scheme",
+                "script" => "open_in_android_studio.scpt",
+                "add_to_path" => "",
+                "label" => "Android Studio",
+                "tooltip" => "Open in Android Studio",
+                "parameters" => ""
+            ]
+```
+
+#### Open Project in Xcode
+Remember to configure add_to_path.
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "url_scheme",
+                "script" => "open_in_xcode.scpt",
+                "add_to_path" => "",
+                "label" => "Xcode",
+                "tooltip" => "Open in Xcode",
+                "parameters" => ""
+            ]
+```
+
+#### Runs Xcode project in iOS Simulator
+Remember to configure add_to_path.
+```
+0 => [
+                "platform" => "Mac OS X",
+                "browser" => "",
+                "type" => "url_scheme",
+                "script" => "run_in_ios_simulator.scpt",
+                "add_to_path" => "",
+                "label" => "iOS Simulator",
+                "tooltip" => "Run in iOS Simulator",
+                "parameters" => ""
+            ]
+```
+
+
+#### Open Path in Terminal
+Remember to configure add_to_path.
+```
+0 => [
+            "platform" => "Mac OS X",
+            "browser" => "",
+            "type" => "url_scheme",
+            "script" => "open_path_in_terminal.scpt",
+            "add_to_path" => "",
+            "label" => "Terminal",
+            "tooltip" => "Open Path in Terminal",
+            "parameters" => ""```
+```
 
 ##5. Scripts in Folder «localadmin»
 
