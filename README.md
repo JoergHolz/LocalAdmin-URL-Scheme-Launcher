@@ -6,11 +6,23 @@ Just call: **localadmin://my_script.scpt**
 
 Of course you can provide parameters **localadmin://my_script.scpt?q=my_value&m=another_value&…** and if your AppleScript returns a message, you will get this message as notification on your screen.
 
-## Requirements
+---
 
-LocalAdmin is only tested on OS X El Capitan.
+##Table of Contents
 
-## Installation
+[1. Requirements](#1-requirements)   
+[2. Installation](#2-installation)   
+[3.  Usage](#3-usage)   
+[4. Usage for Users of LocalAdmin](#4-usage-for-users-of-localadmin)   
+[5. Scripts in Folder «localadmin»](#5-scripts-in-folder-localadmin)   
+[6. Credits](#6-credits)   
+[7. License](#7-license)   
+
+##1. Requirements
+
+LocalAdmin requires OS X and is tested on OS X 10.11.3
+
+##2. Installation
 
 1. Download and unzip LocalAdmin.zip.
 
@@ -19,7 +31,7 @@ LocalAdmin is only tested on OS X El Capitan.
 3. Doubleclick LocalAdmin  
    You will see an info window.
    
-   **This first launch is important for signing the url scheme in OS X.**  
+   **The first launch is important for signing the url scheme in OS X.**  
    
    ![LocalAdmin dialog](doc_images/localadmin_app.png)  
    
@@ -37,9 +49,9 @@ LocalAdmin is only tested on OS X El Capitan.
    
    ![LocalAdmin browser](doc_images/localadmin_browser.png)
 
-## Usage
+##3. Usage
 
-All of your AppleScripts have to be in **Users/your_username/library/scripts/localadmin**
+All AppleScripts have to be in **Users/your_username/library/scripts/localadmin**
 
 Call your scripts by using this URL scheme:
 
@@ -55,11 +67,15 @@ return {title:"Success", msg:"It works!"}
 
  ![LocalAdmin notification](doc_images/localadmin_notification.png)
  
-## Scripts in Folder «localadmin»
+
+##4. Usage for Users of LocalAdmin
+Here are the settings for users of [LocalAdmin](https://github.com/JoergHolz/LocalAdmin)
+
+##5. Scripts in Folder «localadmin»
 
 #### skeleton.scpt
 
-skeleton.scpt is an example script, copy/rename it and expand it to your needs.
+skeleton.scpt is a template script, copy/rename it and expand it to your needs.
 
 If you use parameters in your link, like:
 
@@ -141,18 +157,32 @@ The script expects the following settings in PhpStorm. Otherwise change the name
 
 ![Android Studio Command-line Launcher Settings](doc_images/android_studio_2.png)
 
-## History
-
-Version: 1.0
-
-## Credits
+##6. Credits
 
 – Christa
 
 – http://www.macosxautomation.com/applescript/linktrigger/
 
-## License
+##7. License
 
 MIT License (MIT)
 
 Copyright (c) 2016 Jörg Holz | [https://www.workflow-management.net](https://www.workflow-management.net)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
